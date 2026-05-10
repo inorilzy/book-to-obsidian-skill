@@ -1,5 +1,11 @@
 # book-to-obsidian
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python 3.12+](https://img.shields.io/badge/python-3.12%2B-blue.svg)](https://www.python.org/downloads/)
+[![uv](https://img.shields.io/badge/packaging-uv-261230?logo=python&logoColor=white)](https://github.com/astral-sh/uv)
+[![Obsidian](https://img.shields.io/badge/for-Obsidian-7C3AED?logo=obsidian&logoColor=white)](https://obsidian.md/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/inorilzy/book-to-obsidian-skill/pulls)
+
 将书籍（EPUB / PDF，支持扫描版 OCR）直接转换为 Obsidian 可用的 Markdown 文件。
 
 **纯 Python 规则提取，无 LLM 参与**，速度快（秒级），无 token 消耗。
