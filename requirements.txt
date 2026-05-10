@@ -1,0 +1,8 @@
+# Python >=3.10,<3.13  (see pyproject.toml for the canonical constraint)
+click>=8.1
+rich>=13.7
+pymupdf>=1.24
+ebooklib>=0.18
+beautifulsoup4>=4.12
+markdownify>=0.11
+marker-pdf>=0.2

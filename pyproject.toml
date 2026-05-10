@@ -1,0 +1,17 @@
+[project]
+name = "book-to-obsidian-skill"
+version = "0.3.0"
+description = "Claude Code skill for converting books to Obsidian knowledge base"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "click>=8.1,<9",
+    "rich>=13.7,<14",
+    "pymupdf>=1.24,<2",
+    "ebooklib>=0.18,<0.20",
+    "beautifulsoup4>=4.12,<5",
+    "markdownify>=0.11,<2",
+    "marker-pdf>=0.2,<2",  # M4/L4: 限制主版本上界，防止 breaking change 自动升级
+]
+
+[tool.uv]
+package = false
